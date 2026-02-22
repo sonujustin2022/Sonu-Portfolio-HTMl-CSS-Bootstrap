@@ -1,0 +1,70 @@
+*{
+     font-family: "Poppins", sans-serif;
+  font-style: normal;
+    color:#BD0F97;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url("./assets/faded_gallery-JEludq8wsD8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* navbar-styling */
+
+
+ul {
+    list-style-type: none;
+}
+
+  nav a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #BD0F97;
+    transition: 0.8s;
+}
+
+  nav a:hover{
+    
+    color: #f9f6f8;
+}
+
+
+
+
+header{
+    background:  rgba(84, 78, 78, 0.274);
+   
+}
+
+/* 
+header h1{
+     font-family: "Zen Dots", sans-serif;
+    
+} */
+
+
+
+/* hero-section-styling */
+section{
+    background: rgba(84, 78, 78, 0.274);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+     border-radius: 15px;
+}
+
+
+#hero-left{
+    padding-top: 100px;
+}
+
+#hero-left h1{
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+        font-family: "Zen Dots", sans-serif;
+}
