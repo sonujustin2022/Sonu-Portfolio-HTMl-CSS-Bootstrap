@@ -43,26 +43,32 @@
       href="./assets/3d-nft-icon-digital-artist-male.png"
       type="image/x-icon"
     />
+<!-- aos cdn -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <title>Sonu Justin</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top ">
       <nav
-        class="container d-flex justify-content-between align-items-center pt-3 pb-2"
+        class="container d-flex justify-content-between align-items-center pt-3 pb-2  "
       >
         <h1>Sonu Justin</h1>
         <div>
           <ul class="d-flex gap-5">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
           </ul>
         </div>
       </nav>
     </header>
-    <section class="container mt-5 pt-5 ps-5">
+
+    <!--  -->
+    <section id="home" class="container mt-5 pt-5 ps-5">
       <div class="row">
         <div id="hero-left" class="col-6 d-static">
           <h1 class="text-center">Sonu Justin</h1>
@@ -77,9 +83,13 @@
         </div>
       </div>
     </section>
-    <section class="container mt-5">
-      <div class="col-12">
-        <h1 class="text-center text-light">About me</h1>
+
+<!-- about me section -->
+
+    <section id="about" class="container mt-5">
+      <div class="col-12 mb-5">
+        <h1 class="text-center text-light pt-5">About me</h1>
+        <div id="underline"></div>
         <p class="text-center text-light fs-4 ps-5 pe-5 pt-3">
           I enjoy transforming ideas into visually appealing and functional
           websites while continuously improving my skills in modern web design
@@ -90,12 +100,16 @@
       </div>
     </section>
 
-    <section id="skills" class="container mt-5">
-      <div class="row ps-5 pe-5 pt-5">
-        <h1 class="text-center text-light">Skills</h1>
+    <!-- skills section -->
+
+    <section id="skills" class="container mt-5 pt-5">
+         <h1 class="text-center text-light">Skills</h1>
+         <div id="underline"></div>
+      <div class="row ps-5 pe-5 pt-2">
+         
         <div class="col-4 mt-5">
            <i class="fa-brands fa-html5 "></i>
-           <p class="p-3">HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[3] A form of HTML, known as HTML5, is used to display video and audio, primarily using the <canvas> element, together with JavaScript.</p> 
+           <p class="p-3" >HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[3] A form of HTML, known as HTML5, is used to display video and audio, primarily using the <canvas> element, together with JavaScript.</p> 
         </div>
           <div class="col-4 mt-5">
             <i class="fa-brands fa-css3" ></i>
@@ -107,5 +121,25 @@
         </div>
       </div>
     </section>
+<!-- project-section -->
+    <section id="projects" class="container mt-5 mb-3 pt-5 ">
+        <h1 class="text-center text-light">My Projects</h1>
+         <div id="underline" class="mb-5"></div>
+        <div class="row ">
+            <div class="col-4">
+                <img class="img-fluid rounded-4" src="./assets/Screenshot 2026-02-20 144350.png" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid rounded-4" src="./assets/Screenshot 2026-02-23 000727.png" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid rounded-4"   src="./assets/Screenshot 2026-02-23 000806.png" alt="">
+          </div>
+            
+        </div>
+    </section>
+
+    
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </html>
