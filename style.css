@@ -37,12 +37,6 @@ ul {
 
 
 
-header{
-    background:  rgba(84, 78, 78, 0.274);
-   
-}
-
-
 header h1{
      font-family: "Zen Dots", sans-serif;
     
@@ -68,3 +62,16 @@ section{
     color: rgb(255, 255, 255);
         font-family: "Zen Dots", sans-serif;
 }
+
+/* skills-section styling */
+
+
+#skills i,p{
+    color: white;
+}
+
+#skills i{
+    font-size: 125px;
+    padding-left: 100px;
+}
+
