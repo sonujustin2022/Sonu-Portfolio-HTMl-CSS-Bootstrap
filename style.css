@@ -49,7 +49,7 @@ ul {
 }
 
   nav a:hover{
-    
+    font-size:15px ;
     color: #f9f6f8;
 }
 
@@ -108,8 +108,97 @@ section{
     border-radius: 20px;
     background-color: #BD0F97;
     color: white;
+     font-size: 60px;
+
 
 }
+
+.animated-image{
+     position: relative;
+    top: -380px;
+    left: 390px;
+    height: 60px;
+    transition: 7s;
+    animation: rotation1 7s infinite;
+}
+
+.animated-image2{
+    position: relative;
+    top: -300px;
+    right: -50px;
+    height: 50px;
+    transition: 7s ;
+    animation: rotation2 7s infinite ;
+    
+}
+
+.animated-image3{
+   position: relative;
+    top: -300px;
+      left: 300px;
+    height: 30px;
+    transition: 1s;
+    animation: rotation3 7s infinite;
+    
+}
+
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(56deg);
+    }
+      25% {
+        transform: rotate(-65deg);
+    }
+      75% {
+        transform: rotate(45deg);
+    }
+      100% {
+        transform: rotate(56deg);
+    }
+    
+}
+
+
+
+@keyframes rotation2 {
+    0% {
+        transform: rotate(-75deg);
+    }
+      25% {
+        transform: rotate(25deg);
+    }
+      75% {
+        transform: rotate(-45deg);
+    }
+      100% {
+        transform: rotate(-75deg);
+    }
+    
+}
+
+
+@keyframes rotation3 {
+    0% {
+        transform: rotate(-25deg);
+    }
+      25% {
+        transform: rotate(25deg);
+    
+    }
+      75% {
+        transform: rotate(-45deg);
+    }
+      100% {
+        transform: rotate(-25deg);
+    }
+    
+}
+     
+
+
+  
+     
 
 
 
